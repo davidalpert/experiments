@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blather.Core", "Blather.Core\Blather.Core.csproj", "{649A5E90-977E-44B6-8F2D-EA25CB0570E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blather", "Blather\Blather\Blather.csproj", "{8804D50B-D71F-4C02-A179-89625F267E5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blather.Tests.Unit", "Blather.Tests.Unit\Blather.Tests.Unit.csproj", "{62BABA3E-5812-483E-AEB8-6870458B27B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{649A5E90-977E-44B6-8F2D-EA25CB0570E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{649A5E90-977E-44B6-8F2D-EA25CB0570E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{649A5E90-977E-44B6-8F2D-EA25CB0570E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{649A5E90-977E-44B6-8F2D-EA25CB0570E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8804D50B-D71F-4C02-A179-89625F267E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8804D50B-D71F-4C02-A179-89625F267E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8804D50B-D71F-4C02-A179-89625F267E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8804D50B-D71F-4C02-A179-89625F267E5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62BABA3E-5812-483E-AEB8-6870458B27B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62BABA3E-5812-483E-AEB8-6870458B27B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62BABA3E-5812-483E-AEB8-6870458B27B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62BABA3E-5812-483E-AEB8-6870458B27B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
