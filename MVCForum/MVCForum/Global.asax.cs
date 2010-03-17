@@ -1,9 +1,9 @@
 ﻿using System;
-using FubuMVC.StructureMap.Bootstrap;
+using MVCForum.Infrastructure;
 
 namespace MVCForum
 {
-    public class Global : FubuStructureMapApplication
+    public class Global : MVCForumApplication
     {
     }
 }
