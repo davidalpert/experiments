@@ -6,6 +6,8 @@ using System.Drawing;
 using Blather.Core.Helpers;
 using System.ComponentModel;
 using System.Windows;
+using System.Windows.Interop;
+using System.Windows.Media.Imaging;
 
 namespace Blather.Models
 {
@@ -49,7 +51,11 @@ namespace Blather.Models
 
 		public void SetImage(Bitmap bitmap)
 		{
-			ImageSource.Source = System.Windows.Interop.Imaging.CreateBitmapSourceFromHBitmap(bitmap.GetHbitmap(), IntPtr.Zero, Int32Rect.Empty, System.Windows.Media.Imaging.BitmapSizeOptions.FromEmptyOptions());
+			ImageSource.Source = Imaging.CreateBitmapSourceFromHBitmap(
+				bitmap.GetHbitmap(),
+				IntPtr.Zero,
+				new Int32Rect(0, 0, bitmap.Width, bitmap.Height),
+				BitmapSizeOptions.FromWidthAndHeight(bitmap.Width, bitmap.Height));
 		}
 
         #region INotifyPropertyChanged Members
