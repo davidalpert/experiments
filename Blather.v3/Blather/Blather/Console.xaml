@@ -1,8 +1,10 @@
 ﻿<Window x:Class="Blather.Console"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    Title="Window1" Height="300" Width="300">
-    <Grid>
-        
-    </Grid>
+    Title="Blather v3.0" Height="300" Width="300">
+    <StackPanel Orientation="Horizontal">
+        <Border BorderThickness="1" BorderBrush="Black">
+            <Image Source="{Binding Path=Bitmap}" Height="200" Width="200"/>
+        </Border>
+    </StackPanel>
 </Window>
