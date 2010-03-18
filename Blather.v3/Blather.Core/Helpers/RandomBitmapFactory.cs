@@ -24,8 +24,8 @@ namespace Blather.Core.Helpers
 
         public RandomBitmapResult BuildRandomBitmap(int? width, int? height, int? maxColorValue)
         {
-            height = height ?? random.Next(100);
-            width = width ?? random.Next(100);
+            height = height ?? random.Next(10, 100);
+            width = width ?? random.Next(10, 100);
             maxColorValue = maxColorValue ?? random.Next(255);
 
             Bitmap bitmap = new Bitmap(width.Value, height.Value);

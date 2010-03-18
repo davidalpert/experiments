@@ -4,7 +4,7 @@
     Title="Blather v3.0" Height="300" Width="300">
     <StackPanel Orientation="Horizontal">
         <Border BorderThickness="1" BorderBrush="Black">
-            <Image Source="{Binding Path=Bitmap}" Height="200" Width="200"/>
+            <Image Source="/Blather;component/motivatord340904b0496385ae59593063d970e091b838a6c.jpg"/>
         </Border>
     </StackPanel>
 </Window>
