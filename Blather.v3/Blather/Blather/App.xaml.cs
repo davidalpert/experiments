@@ -22,9 +22,10 @@ namespace Blather
 
             ConsoleViewModel vm = new ConsoleViewModel();
 
-            c.DataContext = vm;
+			vm.SomeString = "hello";
+            vm.SetImage(new RandomBitmapFactory().BuildRandomBitmap().Bitmap);
 
-            //vm.SetImage(new RandomBitmapFactory().BuildRandomBitmap().Bitmap);
+            c.DataContext = vm;
 
             c.Show();
         }

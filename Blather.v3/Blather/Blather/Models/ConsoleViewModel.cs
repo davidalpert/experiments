@@ -19,6 +19,17 @@ namespace Blather.Models
 			_ImageSource = new System.Windows.Controls.Image();
         }
 
+		private string _SomeString;
+		public string SomeString
+		{
+			get { return _SomeString; }
+			set
+			{
+				_SomeString = value;
+			}
+		}
+        
+
         private System.Windows.Controls.Image _ImageSource;
         public System.Windows.Controls.Image ImageSource
         {
